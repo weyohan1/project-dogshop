@@ -1,0 +1,1177 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>홈페이지상세</title>
+    
+    <!-- <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script> -->
+    
+    
+    
+    <!---->
+    
+    <!-- jQuery (bxSlider는 3.x 버전과 가장 안정적) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    
+    <!-- bxSlider CSS (안정 버전 4.2.12) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.12/jquery.bxslider.css">
+    
+    <!-- bxSlider JS (안정 버전 4.2.12) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    
+    
+    <!---->
+    <script src="./main.js"></script>
+
+    <!--폰트 스탠다드-->
+    <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
+    
+    
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    
+    <link rel="stylesheet" href="./mainPDP.css">
+    
+    
+  </head>
+<body>
+  
+  
+  
+  
+  
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    a {
+      text-decoration: none;
+      color: black;
+    }
+
+    li {
+      list-style: none;
+    }
+
+
+
+/****btn_box ***/
+
+
+.btn_box {width: 1269px;
+/* height: 300px; */
+margin: 0 auto;
+/* border: 1px solid black; */
+}
+
+
+
+.btn_box .btn_close  { 
+  display:  none;
+}
+
+.btn_box .gnb_down_menu {
+  width: 100%;
+  height: 0px;
+  overflow: hidden;
+background-color: #eee;
+}
+
+.btn_box a {
+  
+  /* border: 1px solid black;box-sizing: border-box; */
+  float: left;
+  /* display: block; */
+}
+
+
+
+/******착용샷 박스****/
+
+
+.frame_bottom {
+  width: 841px; height: 199px;
+  /* border: 1px solid black; */
+  overflow: hidden;
+  position: relative;
+  margin-top: 15px;
+  /* display: flex;
+  justify-content: space-between; */
+  margin-bottom: 50px;
+  
+}
+
+.frame_bottom ul {
+  width: 1393px;
+  display: flex;
+  position: absolute;
+  top: 0; left: 0;
+animation: ani_visual 5s infinite;
+}
+
+@keyframes ani_visual {
+  0% { left: 0; }
+  20% { left: -138px; }   /* 552 / 4 */
+  40% { left: -276px; }
+  60% { left: -414px; }
+  80% { left: -552px; }
+  100% { left: 0px; }  /* 마지막 고정 */
+}
+
+
+.frame_bottom li {
+  width: 199px; height: 199px;
+  margin-left: 15px;
+ /* float: left; */
+ /* display: inline; */
+}
+
+.frame_bottom li img {
+  width: 100%; height: 100%;
+  border-radius: 20px;
+ overflow: hidden;
+}
+
+
+
+
+
+
+
+  </style>
+</head>
+
+<body>
+
+
+
+
+  <header class="header" id="top">
+
+    <div class="top_menu_outer">
+      <nav class="top_menu">
+
+        <ul>
+          <li><a href="#">로그인</a></li>
+          <li><a href="#">회원가입</a></li>
+          <li><a href="#">주문/배송</a></li>
+          <li><a href="#">장바구니</a></li>
+
+        </ul>
+
+      </nav>
+    </div>
+
+    <div class="logo_outer">
+      <div class="logo">
+        <a href="index.html"><img src="./home/logo.JPG" alt="브랜드 로고"></a>
+
+      </div>
+    </div>
+
+
+<!-- 메뉴-->
+   <div class="gnb_outer">
+
+<nav class="gnb">
+<ul>
+<li>
+  <a href="#story_start">스토리</a>
+<ul>
+
+<li><a href="#!">스토리텔링</a></li>
+<li><a href="#!">회사소개</a></li>
+
+</ul>
+</li>
+
+
+<li>
+  <a href="#!">쇼핑</a>
+<ul>
+<li><a href="indexSub.html">하네스</a></li>  
+<li><a href="#!">리드줄</a></li>  
+<li><a href="#!">목줄</a></li>  
+<li><a href="#!">의류</a></li>  
+<li><a href="#!">악세사리</a></li>  
+</ul>  
+</li>
+
+<li>
+  <a href="#!">겨울</a>
+<ul>
+<li><a href="#!">패딩</a></li>  
+<li><a href="#!">담요</a></li>  
+
+</ul>  
+</li>
+
+
+<li>
+  <a href="#!">이벤트</a>
+<ul>
+<li><a href="#!">특별 이벤트</a></li>  
+<li><a href="#!">썸머 이벤트</a></li>  
+<li><a href="#!">겨울 이벤트</a></li>  
+</ul>  
+</li>
+
+
+<li>
+  <a href="#!">커뮤니티</a>
+<ul>
+<li><a href="#!">공지사항</a></li>  
+<li><a href="#!">회원 소통방</a></li>  
+<li><a href="#!">상품 QnA</a></li>  
+<li><a href="#!">상품 리뷰</a></li>    
+</ul>  
+</li>
+
+
+<li>
+  <a href="#!">서포터즈</a>
+<ul>
+<li><a href="#!">서포터즈 게시판</a></li>  
+<li><a href="#!">서포터즈 모집</a></li>    
+<li><a href="#!">서포터즈 모델</a></li>  
+</ul>  
+</li>
+
+<li><input type="search" placeholder="검색" style="width: 200px;height: 30px; margin: 10px; padding: 10px;"></li>
+
+</ul>
+</header>
+
+<section class="wrap">
+
+<div class="name_box">
+  <p class="bt01"><a href="./indexSub.html">홈</a></p>
+        <h1>쇼핑 &nbsp; > &nbsp; 하네스 &nbsp; > &nbsp; [Y형] 하네스 &nbsp; > &nbsp; likalika X Saki 플레어 하네스</h1>
+      </div>
+
+
+    <input type="radio" name="visual_main" id="vm_btn1" checked>
+    <input type="radio" name="visual_main" id="vm_btn2">
+    <input type="radio" name="visual_main" id="vm_btn3">
+    <input type="radio" name="visual_main" id="vm_btn4">
+
+
+
+
+<section class="visual_main">
+  <div class=" text_box">
+    <p class="text_logo"><img src="./home/logo.JPG"></p>
+
+    <p class="N">[Y형] likalika X Saki 플레어 하네스</p>
+    
+     
+<div class="price">
+<p class="DC">25,000원</p>
+<P>15,100원</P>
+</div>
+
+<div class="hr_bar"></div>
+
+<div class="color_box">
+
+[색상]
+   <select class="select_tap_box">
+      <option selected>[ 검정색 ]</option>
+      <option>[ 노랑색 ]</option>
+      <option>[ 민트색 ]</option>
+      <option>[ 브라운색 ]</option>
+      <option>[ 흰색 ]</option>
+    </select>
+    </div>
+
+
+<div class="hr_bar"></div>
+
+    <div class="size_box">
+
+      [사이즈]
+   <select class="select_tap_box">
+      <option selected>[ S ]</option>
+      <option>[ M ]</option>
+      <option>[ L ]</option>
+      <option>[ XL ]</option>
+    
+    </select>
+</div>
+
+<div class="hr_bar"></div>
+
+
+<div class="total">
+  <p>주문 정보</p>
+</div>
+
+<div class="box01">
+  <p class="buy01">[Y형] likalika X Saki 플레어 하네스 </p>
+  
+  <div class="plus_box"> 
+    <button class="plus_btn"> - </button>
+   <p class="count_box">1</p>
+    <button class="plus_btn"> + </button>
+</div>
+
+</div>
+
+<div class="hr_bar"></div>
+
+<div class="box02">
+<p >결제할 금액 </p>
+<p> 15,000원</p>
+</div>
+
+<div class="hr_bar"></div>
+
+  <div class="buy_box">
+  <div class="jim_box">찜하기</div>
+  <div class="cart_box">장바구니</div>
+  <div class="buy_buy_box">구매하기</div>
+   
+  </div>
+<div class="naver_box">
+  <div class="naver_text">
+    <p class="DD">NAVER</p>
+  <p>  네이버 ID로</p> 
+   <p> 간편구매</p>
+<p>네이버페이</p>
+  </div>
+<div class="naver_boxbox">
+N pay 구매
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+  <ul>
+
+    <div class="visual_box">
+      
+      <li>
+      <div class="visual_img">
+            <img src="./home/sang01.jpg">
+            </div>
+
+          </li>
+          <li><img src="./home/sang02.jpg"></li>
+          <li><img src="./home/sang03.jpg"></li>
+          <li><img src="./home/sang04.jpg"></li>
+          
+        </div>
+      
+</ul>
+
+<!--착용샷 사진-->
+
+
+<!-- <div class="visual_bottom_img">
+
+<div class="visual_bottom_img_box">
+<img src="./home/sang01-1.jpg">
+</div>
+<div class="visual_bottom_img_box">
+<img src="./home/sang01-2.jpg">
+</div>
+<div class="visual_bottom_img_box">
+<img src="./home/sang01-3.jpg">
+</div>
+<div class="visual_bottom_img_box">
+<img src="./home/sang01-3.jpg">
+</div>
+</div> -->
+
+
+<!------------------->
+
+
+
+
+
+
+
+
+
+
+<!------------------->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="inbox">
+  <label for="vm_btn1"></label>
+  <label for="vm_btn2"></label>
+  <label for="vm_btn3"></label>
+  <label for="vm_btn4"></label>
+  
+</div>
+
+
+</section>
+
+
+
+<div class="frame_bottom">
+<ul>
+ <li><img src="./home/sang01-2.jpg" alt="비주얼 이미지1"></li> 
+ <li><img src="./home/sang01-1.jpg" alt="비주얼 이미지1"></li> 
+ <li><img src="./home/sang01-2.jpg" alt="비주얼 이미지2"></li> 
+ <li><img src="./home/sang01-3.jpg" alt="비주얼 이미지3"></li> 
+ <li><img src="./home/sang01-4.jpg" alt="비주얼 이미지4"></li> 
+ <li><img src="./home/sang01-6.jpg" alt="비주얼 이미지5"></li> 
+ <li><img src="./home/sang01-7.jpg" alt="비주얼 이미지6"></li> 
+ 
+
+</ul>
+
+</div>
+
+
+
+
+
+
+<section class="illustration_box">
+
+<div class="illustration_box01">
+
+<div class="illustration_text">
+<p>강아지 일러스트</p>
+</div>
+<div class="illustration_text02">
+<p>강아지 색상</p>
+<select class="best_tab_box">
+<option selected>강아지 색상</option>
+<option>[ 검정 ]</option>
+<option>[ 흰색 ]</option>
+<option>[ 갈색 ]</option>
+<option>[ 회색 ]</option>
+<option>[ 검정 + 흰색 ]</option>
+<option>[ 갈색 + 흰색 ]</option>
+<option>[ 갈색 + 흰색 ]</option>
+<option>[ 회색 + 흰색 ]</option>
+</select> 
+</div>
+<div class="illustration_img">
+<img src="./home/illustration_img.jpg">
+</div>
+</div>
+
+
+
+<!--오른쪽-->
+
+<div class="illustration_box01">
+<div class="illustration_text">
+<p>강아지 옷 입혀보기</p>
+</div>
+
+<div class="illustration_right">
+
+<div class="illustration_text03">
+<p>상품 선택 (1)</p>
+<select class="best_tab_box">
+<option selected>상품 선택(1)</option>
+<option>[ [H형] 꾸리미 하네스]</option>
+<option>[ [H형] 미미x All 클린 하네스]</option>
+</select> 
+</div>
+
+<div class="bbbbox">
+<div class="illustration_img02">
+ <img src="./home/bbbbox_img01.jpg"> 
+</div>
+</div>
+</div>
+
+
+
+<div class="illustration_right">
+<div class="illustration_text03">
+<p>상품 선택 (2)</p>
+<select class="best_tab_box">
+<option selected>상품 선택(2)</option>
+<option>[ [H형] likalika X Saki 하네스]</option>
+<option>[ [Y형] 소프트 민트 면소재 하네스]</option>
+
+
+</select> 
+
+</div>
+<div class="bbbbox">
+<div class="illustration_img02">
+ <img src="./home/bbbbox_img02.jpg"> 
+</div>
+</div>
+
+
+
+</div> 
+
+</div>
+</section>
+
+
+
+
+
+
+<!---상세정보---->
+
+ <div class="sub_guide_box">
+  <div></div>
+  <div></div>
+  <div><a href="#Details">상세정보</a> </div>
+  <div><a href="#buyinfo">구매안내</a></div>
+  <div><a href="#buyview">사용후기</a> </div>
+  <div><a href="#Q&A">Q&A</a> </div>
+  <div></div>
+  <div></div>
+  <div></div>
+</div>
+
+
+
+
+<section class="guide_info_box">
+  
+  <div class="guide_name" id="Details">상세정보</div>
+  
+  <div class="info_box">
+    
+    <div class="info_img">
+      <img src="./home/info01-1.jpg">
+      </div>
+      <div class="info_img">
+        <img src="./home/info01-2.jpg">
+      </div>
+      <div class="info_img">
+        <img src="./home/info01-07.JPG">
+      <div class="info_text">
+        <p>일상의 개인적인 영감과 기억을 모티브로 </p>
+        <p>지금 내 옆에 놓여진 것 그리고 기억속에</p>
+        <p>자리 잡고 있는 것들을 모으고 나열하는 과정을 통해</p>
+        <p>직접 겪고 느낀 것을 시각적으로 구현합니다.</p>
+        <br>
+        <p>콜라주, 드로잉, 패턴 작업 등 다양한 방식과</p>
+        <p>감각적인 색감과 서정적이면서도 러프한 이미지를 특징으로 다양한 분야의 브랜드와 활발한 협업을</p>
+        <p>선보이고 있습니다.</p>
+
+        <div class="info_img">
+      <img src="./home/info01-04.JPG">
+    </div>
+        <div class="info_img">
+      <img src="./home/info02-01.JPG">
+    </div>
+
+        <div class="info_img">
+         <img src="./home/info01-03.JPG">
+         </div>
+        <p>움직임을 위한 Y형 설계</p>
+        <p>기도와 겨드랑이 압박을 최소화하여</p>
+        <p>몸에 가해지는 힘을 고르게 분산시킵니다.</p>
+        <p></p>
+
+      <div class="info_img">
+        <img src="./home/info01-06.JPG">
+      </div>
+<p>한 번에 입는 간편함</p>
+<p>다리를 넣고 버클만 채우면 끝,</p>
+<p>간편한 원터치 하네스 입니다.</p>
+      <div class="info_img">
+        <img src="./home/info01-05.JPG">
+      </div>
+      <div class="info_textbox">
+      <span>상품정보 제공고시</span>
+      <div class="hr_bar01"></div>
+          <span>ㅡ 제품명 ㅡ</span>
+          <p>[Y형] likalika X Saki 플레어 하네스</p>
+          <span>ㅡ 제조국 ㅡ</span>
+          <p>대한민국</p>
+          <span>ㅡ 판매업자 ㅡ</span>
+          <p>압타바이오(주)</p>
+          <span>ㅡ 제조업자 ㅡ</span>
+          <p>압타바이오(주)</p>
+          <span> ㅡ고객센터 ㅡ</span>
+          <p>051-2258-0351</p>
+          <span>ㅡ 교환 및 반품 ㅡ</span>
+          <p>구입처</p>
+          <span>ㅡ 유의사항 ㅡ</span>
+          <p></p>
+          <span></span>
+          <p></p>
+
+          <div class="hr_bar01"></div>
+        </div>
+        </div>
+      </div>
+    </div>
+  
+  <button class="btn">상세설명 보기</button>
+
+</section>
+
+
+
+
+
+
+<!---구매정보---->
+
+ <div class="sub_guide_box">
+  <div></div>
+  <div></div>
+  <div><a href="#Details">상세정보</a> </div>
+  <div><a href="#buyinfo">구매안내</a></div>
+  <div><a href="#buyview">사용후기</a> </div>
+  <div><a href="#Q&A">Q&A</a> </div>
+  <div></div>
+  <div></div>
+  <div></div>
+</div>
+
+
+  <div class="guide_name" id="buyinfo">구매안내</div>
+
+<div class="buyinfo_text">
+
+  <div class="buyinfo_tbox">
+  <span>배송안내</span>
+
+  <div class="hr_bar01"></div>
+  <span>ㅡ 배송업체 ㅡ</span>
+  <p>한진택배</p> 
+  
+  
+  <span>ㅡ 배송비 ㅡ</span>
+  <p>3,000원</p>
+  <p>7만원 이상 구매시 무료 배송입니다.</p>
+  <p>배송비는 한번에 결제하신 동일 주문번호,</p>
+  <p>동일 배송지 기준으로 부과됩니다.</p>
+  <p></p>
+  <span>ㅡ 배송기간 ㅡ</span>
+  <p>오후 2시 이전 주문 시 당일 출고를 원칙으로 합니다.</p>
+  <p>배송은 2~3일 이내 배송 (주말 및 공휴일 제외),</p>
+  <p>도서산간지역의 경우 7일 이내 배송됩니다.</p>
+  <p>물류 사정에 따라 다소 차이가 발생할 수 있습니다.</p>
+  <p>'배송준비중' 상태 또는 송장이 등록된 후에는 취소가 불가 합니다.</p>
+  <p>프리오더시 안내된 일자에 순차적으로 출고됩니다.</p>
+</div>
+<div class="buyinfo_tbox">
+  <span> 교환/반품 안내 </span>
+  <div class="hr_bar01"></div>
+    <span> ㅡ 교환/반품 왕복,배송비 ㅡ</span>
+    
+
+    <p>6,000원</p>
+
+    <p>상품 불량 및 오배송으로 인한 교환/반품하실 경우, 배송비는 무료입니다.</p>
+    <span>ㅡ 신청 방법 ㅡ</span>
+    <p>마이페이지 > 주문 내역 조회 > 주문 번호 하단의 교환신청 or 반품신청 클릭</p>
+    <span>ㅡ 교환/반품 신청 기준 ㅡ</span>
+    <p>수령일로부터 7일 이상 경과한 경우 교환이 및 반품이 불가합니다.</p>
+    <span>ㅡ 교환/반품  불가사유 ㅡ</span>
+    <p>1. 제품의 가치가 손상된 경우 (착용,세탁,오염,변형,훼손,파손 등) 교환 및 반품이 불가합니다.</p>
+    <p>2. 포장의 가치가 손상된 경우 (택, 제거, 포장지 분실, 사은품 누락 등) 교환 및 반품이 불가합니다.</p>
+    <p>3. 케이블타이 제거 또는 훼손 시 교환 및 반품이 불가합니다.</p>
+    <p>4. 패턴 원단 특성상 패턴 위치는 제품 별로 전부 상이하므로 이는 교환 및 반품이 불가합니다.</p>
+    <p>5. 새제품의 경우 웨빙이 다소 뻣뻣하아 시간이 지날수록 부드러워 집니다. </p>
+    <p>6.웨빙 생산 과정에서 원사가 섞일 수 있으며, 이는 자연스러운 현상입니다.</p>
+    <p>7. 재질 특성상 먼지 등의 이물질이 눈에 띌수 있으나, 손쉽게 제거 가능 합니다.</p>
+    <p></p>
+  </div>
+
+</div>
+
+
+
+
+
+<!---사용후기---->
+
+ <div class="sub_guide_box">
+  <div></div>
+  <div></div>
+  <div><a href="#Details">상세정보</a> </div>
+  <div><a href="#buyinfo">구매안내</a></div>
+  <div><a href="#buyview">사용후기</a> </div>
+  <div><a href="#Q&A">Q&A</a> </div>
+  <div></div>
+  <div></div>
+  <div></div>
+</div>
+
+
+  <div class="guide_name">사용후기</div>
+
+
+
+
+  <div class="review_name" id="buyview">
+   <div class="hr_bar01"></div>
+    <p>&starf; 4,9</p>
+    <p class="review_text01">17개 리뷰</p>
+    <p class="review_text02">구매자의 100%가 이 상품을 만족했어요.</p>
+    
+    <div class="hr_bar01"></div>
+  </div>
+  
+  
+  
+  <div class="rev_name">
+    <p>동영상 / 사진 모아보기</p>
+    <p class="rev_btn">전체보기 > </p> 
+  </div>
+  
+  
+
+<ul class="review_img_box">
+    
+  
+<li> <img src="./home/rev1.jpg"></li>
+<li> <img src="./home/rev2.jpg"></li>
+<li> <img src="./home/rev3.jpg"></li>
+<li> <img src="./home/rev4.jpg"></li>
+<li> <img src="./home/rev30.jpg"></li>
+<li> <img src="./home/rev31.jpg"></li>
+<li> <img src="./home/rev32.jpg"></li>
+<li> <img src="./home/rev33.jpg"></li>
+<li> <img src="./home/rev34.jpg"></li>
+<li> <img src="./home/rev35.jpg"></li>
+  
+  
+ 
+</ul>
+  
+
+
+
+  <!---------------------------------->
+
+
+<button class="review_btn">사용후기 작성</button>
+  
+  <div class="re_hr_bar"></div>
+
+
+<div class=" review_tap">
+
+<input type="search" placeholder="검색" style="width: 200px;height: 30px;">
+
+<select class="select_rev_tap_box01">
+      <option selected>[ 사용후기 종류 ]</option>
+      <option>[ 동영상 ]</option>
+      <option>[ 이미지 ]</option>
+      <option>[ 텍스트 ]</option>
+    </select>
+
+<select class="select_rev_tap_box02">
+      <option selected>[ 별점 ]</option>
+      <option>[ 5점 ]</option>
+      <option>[ 4점 ]</option>
+      <option>[ 3점 ]</option>
+      <option>[ 2점 ]</option>
+      <option>[ 1점 ]</option>
+    </select>
+
+    <select class="select_rev_tap_box03">
+      <option selected>[ 최신순 ]</option>
+      <option>[ 인기순 ]</option>
+      <option>[ 별점순 ]</option>
+   
+    </select>
+
+ <div class="re_hr_bar"></div>
+    </div>
+
+
+
+<!--후기 작성란-->
+
+<!--1번-->
+<section class="rev_bottom">
+
+  <div class="rev_namebox">
+  <p>이*정</p>
+  <p>&starf;&starf;&starf;&starf;&starf; 아주 좋아요</p>
+</div>
+
+  <div class="rev_center_imgbox">
+    <div class="rev_imgbox">
+    <img src="./home/re11.jpg">
+    </div> 
+    <div class="rev_imgbox">
+    <img src="./home/re12.jpg">
+    </div> 
+    <div class="rev_imgbox">
+    <img src="./home/re13.jpg">
+    </div> 
+    <div class="rev_imgbox">
+    <img src="./home/re14.jpg">
+    </div> 
+    <div class="rev_imgbox">
+    <img src="./home/re15.jpg">
+    </div> 
+    <div class="rev_imgbox">
+    <img src="./home/re16.jpg">
+    </div> 
+    <div class="rev_imgbox">
+    <img src="./home/re17.jpg">
+    </div> 
+  
+  </div>
+  <div class="rev_textbox">
+  <p> 사키가 콜라보한 목줄과 리드줄, 풉백 사용해보았어요! 색상도 디자인도 너무 예쁘고, 모색에 상관없이 다 잘어울려서 좋았어요! 산책용품이다 보니 안전함을 1등으로 꼽을 수 밖에 없는데 연결 고리에 안전장치도 되어있더라구요! 신경을 많이 쓰신 티가 나서 안심하고 사용할 수 있을 것 같아요! 리드줄은 핸즈프리라 두마리 산책하기도 편해요ㅎㅎ 풉백 너무 큰거 안좋아하는데 요고는 딱 컴팩트한 사이즈라 너무 좋았습니다! 엄청 귀여워요ㅜㅜㅜ 자주 애용할 것 같아요!💓</p>
+  </div>
+  
+  <!-- <div class="rev_rebox">
+    <p>댓글</p>
+<p class="like_btn">좋아요&nbsp;<span class="like_count">0</span></p>
+</div> -->
+
+<div class="rev_rebox">
+<p class="dbtn">댓글</p>
+<p class="like_btn">좋아요&nbsp;<span class="like_count">0</span></p>
+
+
+
+</div>
+<div class="rev_retextbox">
+<div class="rev_retext">
+  <!-- <p>댓글을 입력하세요.</p> -->
+  <textarea class="comentbox"></textarea>
+<!-- </div> -->
+
+<button class="cbtn">등록</button>
+</div>
+</div>
+
+
+</section>
+
+<div class="hr_bar03"></div>
+
+
+
+
+<!--2번-->
+<section class="rev_bottom">
+
+  <div class="rev_namebox">
+  <p>박*민</p>
+  <p>&starf;&starf;&starf;&starf;&star; 좋아요</p>
+</div>
+
+  <div class="rev_center_imgbox">
+    <div class="rev_imgbox">
+    <img src="./home/re18.jpg">
+    </div> 
+    <div class="rev_imgbox">
+    <img src="./home/re19.jpg">
+    </div> 
+    <div class="rev_imgbox">
+    <img src="./home/re20.jpg">
+    </div> 
+    <div class="rev_imgbox">
+    <img src="./home/re21.jpg">
+    </div> 
+    <div class="rev_imgbox">
+    <img src="./home/rev41.jpg">
+    </div> 
+    <div class="rev_imgbox">
+    <img src="./home/rev40.jpg">
+    </div> 
+    <div class="rev_imgbox">
+    <img src="./home/rev39.jpg">
+    </div> 
+  
+  </div>
+  <div class="rev_textbox">
+  <p> 
+리카리카 PICK
+사키 작가님의 유니크하지만 러블리한 패턴이 연말 선물같은 느낌을 줘서 너무 예뻐요 ❄️🎀 리카리카 리쉬가 제가 써본 리쉬 중 제일 가벼워서 손이 많이 가는 리쉬예요 ! 또한 감자같이 작은 아이들이 쓰기에도 부담없이 쓸 수 있어서 편하고 즐거운 산책을 할 수 있는 것 같아요 ⭐️ 제일 좋은 건 이중 잠금이라 믿고 착용할 수 있는 거예요 ! 옹심이랑 감자랑 커플리쉬를 하고파도 카라비너가 부실해서 예쁜 리쉬를 못하는 적이 많았는데 리카리카는 예쁘기도 하고 안정성도 좋아서 너무 만족입니다 !! 앞으로도 산책템은 리카리카에서 구매할 거 같아요 </p>
+  </div>
+<div class="rev_rebox">
+<p class="dbtn">댓글</p>
+<p class="like_btn">좋아요&nbsp;<span class="like_count">0</span></p>
+
+
+
+</div>
+<div class="rev_retextbox">
+<div class="rev_retext">
+  <!-- <p>댓글을 입력하세요.</p> -->
+  <textarea class="comentbox"></textarea>
+<!-- </div> -->
+
+<button class="cbtn">등록</button>
+</div>
+</div>
+
+
+
+
+
+</section>
+<div class="hr_bar03"></div>
+
+
+
+<!--3번-->
+<section class="rev_bottom">
+
+  <div class="rev_namebox">
+  <p>김*지</p>
+  <p>&starf;&starf;&starf;&starf;&starf; 아주 좋아요</p>
+</div>
+
+  <div class="rev_center_imgbox">
+    <div class="rev_imgbox">
+    <img src="./home/rev38.jpg">
+    </div> 
+    <div class="rev_imgbox">
+    <img src="./home/rev37.jpg">
+    </div> 
+    <div class="rev_imgbox">
+    <img src="./home/rev36.jpg">
+    </div> 
+    <div class="rev_imgbox">
+    <img src="./home/rev35.jpg">
+    </div> 
+    <div class="rev_imgbox">
+    <img src="./home/rev34.jpg">
+    </div> 
+    <div class="rev_imgbox">
+    <img src="./home/rev33.jpg">
+    </div> 
+    <div class="rev_imgbox">
+    <img src="./home/rev32.jpg">
+    </div> 
+  
+  </div>
+  <div class="rev_textbox">
+  <p> 리카리카 플레어하네스 색감 너무 이뻐요!! 받자머자 사용해봤는데 착용 너무 간편하고 아이들도 거부감 없고 핸즈프리까지 되니 너무 편리해요~ 칼라에 맞춘 풉백도 너무 귀여워요~ 데일리템으로 아주 잘 쓸거 같아요!</p>
+  </div>
+  <!-- 좋아요/ 댓글 기능 (사용하려면 rev_reobox 밑에 넣기 --->
+  
+      <!-- <div class="comment_area" style="display:none;">
+        <textarea class="comment_input" placeholder="댓글을 입력하세요"></textarea>
+        <button class="comment_submit">등록</button>
+      
+        <div class="comment_list"></div>
+      </div>  -->
+  
+  <div class="rev_rebox">
+<p class="dbtn">댓글</p>
+<p class="like_btn">좋아요&nbsp;<span class="like_count">0</span></p>
+
+
+
+</div>
+<div class="rev_retextbox">
+<div class="rev_retext">
+  <!-- <p>댓글을 입력하세요.</p> -->
+  <textarea class="comentbox"></textarea>
+<!-- </div> -->
+
+<button class="cbtn">등록</button>
+</div>
+</div>
+
+
+
+</section>
+
+
+
+
+
+
+
+<div class="hr_bar03"></div>
+
+
+<!---Q&A---->
+
+
+ <div class="sub_guide_box">
+  <div></div>
+  <div></div>
+  <div><a href="#Details">상세정보</a> </div>
+  <div><a href="#buyinfo">구매안내</a></div>
+  <div><a href="#buyview">사용후기</a> </div>
+  <div><a href="#Q&A">Q&A</a> </div>
+  <div></div>
+  <div></div>
+  <div></div>
+</div>
+
+
+
+
+
+  <div class="guide_name" id="Q&A">QnA</div>
+
+<div class="hr_bar03"></div>
+ 
+<div class="QnA_box">
+<p class="QnA_A">안감소재</p>
+<br>
+<p class="QnA_P">2025-11-10</p>
+<p >[황****] </p>
+</div>
+
+<div class="hr_bar03"></div>
+
+
+<div class="QnA_box">
+<p class="QnA_A">-답변 안감소재</p>
+<br>
+<p class="QnA_P">2025-11-12</p>
+<p>[Reoh 관리자] </p>	
+</div>
+
+<div class="hr_bar03"></div>
+
+<div class="QnA_box">
+<p class="QnA_A">문의</p>
+<br>
+<p class="QnA_P">2025-11-03</p>
+<p>[김****]</p>
+</div>
+
+<div class="hr_bar03"></div>
+
+<div class="QnA_box">
+<p class="QnA_A"> -답변 문의 </p>
+<br>
+<p class="QnA_P">2025-11-03</p>
+<p>[Reoh 관리자] </p>
+</div>
+
+<div class="hr_bar03"></div>
+
+
+
+
+    <div class="page">
+        <a href="#">&lsaquo;</a>
+        <a href="#">...</a>
+        <a href="#">1</a>
+        <a href="#" class="active">2</a> 
+        <a href="#">3</a>
+        <a href="#">...</a>
+        <a href="#">&rsaquo;</a> 
+    </div>
+
+
+
+
+
+<footer class="footer_box" id="bottom">
+<nav class="footer_menu">
+<ul>
+<li><a href="#">홈</li></a>  
+<li><a href="#">이용약관</li></a>  
+<li><a href="#">개인정보처리방침</li></a>  
+<li><a href="#">이용안내</li></a>  
+<li class="FM">Copyright © Reoh. All Rights Reserved.</li>
+</ul>
+
+
+<div class="footer_logo">
+<div class="footer_logo_img">
+<a href="#"><img src="./home/logo.JPG"></a> 
+</div>
+</div>
+<div class="footer01_box">
+<div class="footer_box_img">
+<a href="#!"><img src="./home/instagram.jpg"></a>
+</div>
+<div class="footer_box_img">
+<a href="#!"><img src="./home/naver.jpg"></a>
+</div>
+<div class="footer_box_img">
+<a href="#!"><img src="./home/./kakao.jpg"></a>
+</div>
+</div>
+
+<p>상호명 / <span>Reoh</span> &nbsp;&nbsp;&nbsp;대표자 / <span> 위요한</span><br>
+주소 / <span>부산광역시 동구청 수정동 115-1번지</span>&nbsp;&nbsp;&nbsp; 대표전화 /<span>1800-6620</span><br>
+사업자등록번호 / 753-85-01234 &nbsp;&nbsp;&nbsp; 통신판매업신고번호 / <span>제2025-부산수정동-02012호   [사업자정보확인]</span>&nbsp;&nbsp;&nbsp;개인정보보호책임자 / <span>레오아빠 (reoh@reoh.com)</span>
+  </p>
+</footer>
+
+
+
+ </section>
+
+
+
+
+<section class="wing_box">
+
+<div class="wing_banner">
+<a href="#top"><img src="./home/top.jpg"></a> 
+</div>
+
+<div class="wing_banner">
+<a href="#!"><img src="./home/icons8.png"></a> 
+</div>
+
+
+<div class="wing_banner">
+<a href="#!"><img src="./home/dogart01.jpg"></a> 
+</div>
+
+
+<div class="wing_banner">
+<a href="#bottom"><img src="./home/bottom.jpg"></a>
+</div>
+
+</section>
+
+
+
+
+
+
+
+  <!-- <script src="./main.js"></script> -->
+</body>
+</html>

@@ -58,7 +58,7 @@ document.addEventListener('DOMContentLoaded', () => {
     e.preventDefault();
 
     if (isOpen === false) {
-      lastScrollY = window.scrollY;     // 현재 스크롤 위치 저장
+      lastScrollY = window.scrollY;   
       inforText.style.display = 'block';
       btn.textContent = '상세설명닫기';
       isOpen = true;
@@ -68,7 +68,7 @@ document.addEventListener('DOMContentLoaded', () => {
       isOpen = false;
 
       window.scrollTo({
-        top: lastScrollY,     // 원래 위치로 복귀
+        top: lastScrollY,     
         behavior: "instant"
       });
     }
@@ -77,40 +77,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 
-
-
-
-
-
-
-
-
-//원래 댓글용
-
-// document.addEventListener('DOMContentLoaded',() =>{
-  
-  // const dbtn = document.querySelector('.dbtn');
-  // const textBox =document.querySelector('.rev_retextbox');
-  
-  // let state = false;
-  
-  
-  // dbtn.addEventListener('click',() => {
- 
-    
-    //   if(state === false) {
-      //     textBox.style.display = 'block';
-      //     state = true;
-      //   } else {  
-        //     textBox.style.display = 'none';
-        //     state =false;
-        //   }
-        // })
-        
-        // })  여기까지
-        
-        
-        
 
 
         //좋아요 +댓글
@@ -211,7 +177,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 document.addEventListener("DOMContentLoaded", () => {
 
-  /* --- 스크롤 방향에 따라 윙배너 보이기/숨기기 --- */
+
   const wing = document.querySelector(".wing_box");
   let lastScroll = 0;
 
@@ -224,16 +190,15 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     if (currentScroll > lastScroll) {
-      wing.classList.add("show"); // 스크롤 내림 → 나타남
+      wing.classList.add("show");
     } else {
-      wing.classList.remove("show"); // 스크롤 올림 → 숨김
+      wing.classList.remove("show");
     }
 
     lastScroll = currentScroll;
   });
 
 
-  /* --- TOP 버튼 부드럽게 스크롤 --- */
   const topLinks = document.querySelectorAll('a[href="#top"]');
   topLinks.forEach(link => {
     link.addEventListener("click", function(e) {
@@ -248,7 +213,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 
-  /* --- BOTTOM 버튼 부드럽게 스크롤 --- */
   const bottomLinks = document.querySelectorAll('a[href="#bottom"]');
   bottomLinks.forEach(link => {
     link.addEventListener("click", function(e) {
@@ -281,10 +245,10 @@ $(function(){
 //상세 review_img_box
 $(document).ready(function(){
 $('.review_img_box').bxSlider({
-  minSlides: 7, //갯수
-  maxSlides: 7, //갯수
-  slideWidth: 300, //크기 최대가 300?
-  slideMargin: 15, //간격
+  minSlides: 7, 
+  maxSlides: 7, 
+  slideWidth: 300, 
+  slideMargin: 15, 
   ticker: true,
   speed: 9000
 });

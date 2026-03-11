@@ -4,8 +4,7 @@
 
 
 body {
-  /* background-color: #CBCBCB; */
-  /* background-color: #a6bbcc; */
+
 
 }
 
@@ -38,10 +37,6 @@ body {
  
     
 }
-
-/* .header .color_top {
- 
-} */
 
 
 
@@ -165,13 +160,12 @@ body {
 
 .name_box {
   width: 1269px;
-  /* background-color: black; */
   color: black;
   margin: 0 auto;
   margin-top: 150px;
   font-size: 10px;
   margin-bottom: 20px;
-  /* text-align: center; */
+
 }
 
 
@@ -185,11 +179,7 @@ body {
 }
 
 .name_box .bt01:hover {
-  /* border: 1px solid black; */
   font-weight: bold;
-  
-
-  /* transition: 0,3s; */
   
 }
 
@@ -199,7 +189,6 @@ body {
 .visual_main {
   width: 1269px;
   margin: 0 auto;
-  /* border: 1px solid black; */
   
 }
 
@@ -207,9 +196,6 @@ body {
   width: 413px;
   height: 800px;
   float: right;
-  /* border: 1px solid yellow; */
-  
-  
   
 }
 
@@ -256,15 +242,6 @@ body {
 }
 
 
-
-
-/* .text_box .select_box {
-  font-size: 25px;
-  font-weight: bold;
-  border: 1px solid black;
-  margin-top: 15px;
-  
-} */
 
 
 .text_box .color_box {
@@ -322,18 +299,15 @@ body {
   font-weight: bold;
    margin-top: 30px;
   margin-left: 15px;
-  /* border: 1px solid black; */
   margin: 15px;
   
 }
 
 .plus_box {
   width: 100px;
-
   height: 30px;
   font-size: 20px;
   font-weight: bold;
-  /* border: 1px solid black; */
   margin:15px;
   display: flex;
   justify-content: space-between;
@@ -440,7 +414,6 @@ body {
 
 .naver_box .naver_text{
   width: 100px;
-    /* border: 1px solid black; */
     font-size: 13px;
     font-weight: bold;
     
@@ -478,7 +451,6 @@ body {
 
 .visual_box {
   width: 841px; height: 600px;
-  /* border: 1px solid black; */
   position: relative;
 }
 
@@ -503,12 +475,7 @@ body {
 
 
 
-/*******************************************/
-
 .visual_bottom_img div:first-child{margin: 0;}
-/* .visual_bottom_img div:nth-child(2){margin-left: 15px;}
-.visual_bottom_img div:nth-child(3){margin-left: 15px;}
-.visual_bottom_img div:nth-child(4){margin-left: 15px;} */
 .visual_bottom_img div:last-child{margin-left: 0;}
 
 
@@ -517,12 +484,9 @@ body {
   position: absolute;
   left: 360px;
   bottom: 5%;
-  /* transform: translatex(-50%); */
-  /* top: 850px; */
-  /* left: 690px; */
- 
- 
+
 }
+
 /*버튼 크기*/
 .visual_main .inbox label {
   display: block;
@@ -561,13 +525,13 @@ body {
   justify-content: space-between;
   gap: 15px;
   text-align: center;
-  /* border: 1px solid black; */
+  
 }
 
 .illustration_box01 {
   width: 627px;
  height: 500px; 
- /* border: 1px solid black; */
+
  
   
   
@@ -578,7 +542,7 @@ body {
   font-size: 30px;
   font-weight: bold;
   margin-bottom: 50px;
-  /* background-color: black; */
+ 
   
   
 }
@@ -590,14 +554,13 @@ body {
   display: flex;
   justify-content: space-between;
   margin: 20px;
-  /* border: 1px solid black; */
+
   
 }
 
 .illustration_img {
   width: 520px;
   height: 350px;
-  /* border: 1px solid black; */
   margin: 0 auto;
   border-radius: 20px;
  overflow: hidden;
@@ -611,7 +574,6 @@ body {
 
 
 
-/*****/
 .illustration_text03 {
    font-size:  25px;
   font-weight: bold;
@@ -630,19 +592,12 @@ body {
 }
   
 
-  
-
-.bbbbox {
-   
-  }
 
 .illustration_img02 {
   width:306px ;
   margin-top: -25px;
 
-  /* border: 1px solid black; */
-  /* height: auto; */
- 
+
 }
 
 .illustration_img02 img {
@@ -654,12 +609,6 @@ body {
 
 
 
-/**************************/
-
-
-
-/**안내**/
-
 .sub_guide_box {
   width: 1269px;
 
@@ -670,12 +619,7 @@ body {
 }
 
 .sub_guide_box div {
-  /* font-size: 25px;
-  font-weight: bold;
- 
-    border: 2px solid transparent; 
-  transition: 0.2s ease;  
-  cursor: pointer; */
+
   
    font-size: 25px;
   font-weight: bold;
@@ -704,8 +648,7 @@ body {
 
 .guide_info_box{
   width: 1269px;
-  /* height: 5000px; */
-  /* margin-top: 50px; */
+
   
   
 }
@@ -751,8 +694,6 @@ body {
 .info_text p {
   font-size: 30px;
   font-weight: 450;
-  /* margin-top: 10px;
-  margin-bottom: 10px; */
   margin: 20px;
    color: rgb(88, 86, 86);
 }
@@ -789,10 +730,6 @@ margin-bottom: 15px;
 
 .buyinfo_text {
   width: 1269px;
-  
-  /* border: 1px solid black; */
-  /* margin: 0 auto;
-  text-align: center; */
   display: flex;
   justify-content: space-between;
   gap: 15px;
@@ -801,10 +738,9 @@ margin-bottom: 15px;
 
 .buyinfo_tbox {
   width: 627px;
-  /* height: 300px; */
   border: 2px solid black;
   text-align: center;
-  /* color: #02a94d; */
+
  
 }
 .buyinfo_tbox span {
@@ -816,7 +752,6 @@ margin-bottom: 15px;
 .buyinfo_tbox p {
   font-size: 15px;
   font-weight: 450;
-  /* margin: 10px; */
   margin: 20px;
   color: rgb(88, 86, 86);
 }
@@ -955,7 +890,7 @@ margin-bottom: 15px;
 .rev_bottom {
   width: 1269px;
   margin: 0 auto;
-  /* border: 1px solid black; */
+
   
 }
 
@@ -971,7 +906,7 @@ margin-bottom: 15px;
 
 .rev_center_imgbox {
  width: 1269px;
-  /* display: flex; */
+  display: flex;
   justify-content: space-between;
   gap: 15px;
   display: block;
@@ -983,7 +918,7 @@ margin-bottom: 15px;
   margin-top: 20px;
   border-radius: 5px;
  overflow: hidden;
-  /* border: 1px solid black; */
+
 
 }
 .rev_imgbox img {
@@ -997,23 +932,9 @@ margin-bottom: 15px;
   width: 1269px;
   margin-top: 20px;
   margin-bottom: 15px;
-  /* border: 1px solid black; */
+
 
 }
-/*******댓글 박스 ***/
-
-/* .rev_rebox {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 20px;
-  font-size: 20px;
-  font-weight: bold;
-  cursor: pointer;
-  padding: 15px;
-
-  
-} */
-
 
 
 
@@ -1022,8 +943,6 @@ margin-bottom: 15px;
    display: flex;
     justify-content: space-between;
     width: 1269px;
-    /* height: px; */
-    /* border: 1px solid black; */
     margin: 0 auto;
     position: relative;
     margin-bottom: 15px;
@@ -1040,27 +959,14 @@ margin-bottom: 15px;
 
 .rev_retextbox {
      width: 1269px;
-    /* height: 100px; */
-  
     height: 150px;
-    /* border: 1px solid black; */
     background-color: #eee;
-    /* line-height: 100px; 
-    position: absolute;
-    top: 100px;  */
     position: relative; 
     display: none; 
     
 }
 .rev_retext {
-     /* width: 1269px;
-     height: 100px;
-     background-color: white;
-     border: 1px solid black; */
-     /* position: absolute;
-     top: -50px; */
-     /* line-height: 50px; */
-     /* height: 100px; */
+
 }
 
 .cbtn {
@@ -1086,7 +992,7 @@ margin-bottom: 15px;
 
 
 
-/********************/
+
 
 .hr_bar03 {
   width: 1269px;
@@ -1103,11 +1009,8 @@ margin-bottom: 15px;
 
 .QnA_box {
   width: 1269px;
-  /* margin: 0 auto; */
   font-size: 20px;
-  /* display: flex; */
-  /* justify-content: space-between;  */
-  /* position: relative; */
+
   
 }
 .QnA_box .QnA_A{
@@ -1118,23 +1021,7 @@ margin-bottom: 15px;
 
 .QnA_box .QnA_P {
   float: right;
-  /* position: absolute;
-  top: 0px;
-  right: 10px */
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -1159,24 +1046,12 @@ margin-bottom: 15px;
 
 
 
-
-
-
-
-
-
-
-
-
 /**푸터**/
 
 .footer_box {
   width: 1269px;
   height: 300px;
-  /* border: 1px solid black; */
   margin: 0 auto;
-  /* background-color: black; */
-  /* color: white; */
   margin-top: 50px;
   
 }
@@ -1189,15 +1064,12 @@ margin-bottom: 15px;
 .footer_menu li {
   display: inline-block;
   font-size: 15px;
-  /* color: white; */
   color: black;
-  /* margin-right: px; */
   margin-left: 15px;
 }
 
 
 .footer_menu li a {
-  /* color: white; */
   color: black;
 }
 .footer_menu li a:hover {color: black;
@@ -1231,7 +1103,6 @@ margin-left: 10px;
 .footer_box .footer01_box .footer_box_img {
   width: 50px;
   height: 50px;
-  /* background-color: yellow; */
   float: right;
   margin-right: 15px;
   margin-top: -30px;
@@ -1260,25 +1131,6 @@ margin-left: 10px;
 
 
 
-
-/**윙 배너**/
-
-/* .wing_box{
-  position: fixed;
-  top: 400px;
-  right: 0px;
-
-}
-
-
-.wing_banner {
-  width: 60px;
-  height: 80px;
-  margin-bottom: 10px;
-  border: 1px solid black;
-} */
-
-
 .wing_box {
   position: fixed;
   top: 50%;
@@ -1300,7 +1152,7 @@ margin-left: 10px;
   transform: translateY(-50%) translateX(0);
 }
 
-/* 배너 디자인 유지 */
+
 .wing_banner {
   width: 50px;
   height: 50px;
@@ -1326,12 +1178,10 @@ margin-left: 10px;
 
 
 
-/****/
-
 .comentbox {
-  width: 100%;     /* 원하는 너비 */
-  height: 80px;    /* 원하는 높이 */
-  resize: none;    /* 크기 조절 비활성화 */
+  width: 100%;     
+  height: 80px;
+  resize: none;   
   box-sizing: border-box;
 }
 

@@ -7,11 +7,6 @@ body {
 }
 
 
-
-
-
-
-
 .wrap {
   width: 1269px;
   margin: 0 auto;
@@ -41,11 +36,6 @@ body {
  
     
 }
-
-/* .header .color_top {
- 
-} */
-
 
 
 
@@ -124,13 +114,6 @@ body {
 
 .gnb li ul {
   display: none;
-  /* position: absolute;
-  top: 50px; 
-  left: 0;
-  margin: 0;
-  padding: 0;
-  width: 120px;
-  z-index: 1000; */
  background-color: hsl(0, 7%, 97%);
   
 }
@@ -163,7 +146,7 @@ body {
 }
 
 
-/*****/
+
 
  .main_box {
   width: 1269px;
@@ -186,8 +169,6 @@ body {
   width: 1269px;
   height: 100px;
   margin: 0 auto;
-  /* border: 1px solid black; */
-  /* font-weight: bold; */
   margin-bottom: 0px;  
 }
 .name_box {
@@ -251,7 +232,6 @@ body {
   width: 100px;
   height: 30px;
   font-size: 20px;
-  /* font-weight: bold; */
   background-color: black;
   color: white;
   text-align: center;
@@ -289,20 +269,20 @@ body {
   margin: 0 auto;
 }
 
-/* 상품 리스트 컨테이너 */
+
 .best_box .best_sub {
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;    /* 줄바꿈 허용 */
+  flex-wrap: wrap;   
 }
 
-/* 각 상품 박스 */
+
 .best_box_box {
   width: 306px;
   margin-bottom: 50px;
 }
 
-/* 이미지 박스 */
+
 .best_box .best_boxbox_img {
   position: relative;
   width: 306px;
@@ -310,7 +290,7 @@ body {
   overflow: hidden;
 }
 
-/* NEW, BEST 라벨 */
+
 .best_box .new,
 .best_box .best {
   width: 70px;
@@ -324,8 +304,6 @@ body {
 
 
 
-
-/** 백그라운드 이미지**/
 
 .best_boxbox_img:hover .back_img01 {
   opacity: 2;
@@ -590,7 +568,6 @@ body {
   width: 306px;
   margin-top: 10px;
   text-align: center;
-  /* border: 1px solid black; */
 }
 
 .best_text .N{
@@ -658,9 +635,6 @@ body {
 
 .visual_main {
   width: 306px; height: 530px;
-  /* border: 1px solid black; */
-  /* float: left; */
-
   position: relative;
 }
 .visual_main ul li {
@@ -668,14 +642,14 @@ body {
 }
 
 
-/*버튼 위치*/
+
 .visual_main .inbox {
   position: absolute;
   left: 30%;
   bottom: 0%;
  
 }
-/*버튼 크기*/
+
 .visual_main .inbox label {
   display: block;
   width: 20px; height: 20px;
@@ -691,7 +665,6 @@ body {
 
 .review_boxbox {
   width: 300px;
-  /* width: 306px; */
   height: auto;
   border: 1px solid black;
   float: left;
@@ -711,7 +684,6 @@ body {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  /* border: 1px solid black; */
   
 }
 
@@ -721,9 +693,7 @@ body {
 
 
 .review_boxbox .RP {
-  /* width: 299px; */
   margin-top: 10px;
-  /* border: 1px solid black; */
   line-height: 50px;
   font-size: 15px;
   font-weight: bold;
@@ -747,9 +717,6 @@ body {
   margin-top: -11px;
 
 }
-
-
-
 
 
 
@@ -778,22 +745,13 @@ body {
 
 
 
-
-
-
-
-
-
 /**푸터**/
 
 
 .footer_box {
   width: 1269px;
   height: 300px;      
-  /* border: 1px solid black; */
   margin: 0 auto;
-  /* background-color: black; */
-  /* color: white; */
   margin-top: 50px;
   
 }
@@ -806,14 +764,11 @@ body {
 .footer_menu li {
   display: inline-block;
   font-size: 15px;
-  /* color: white; */
   color: black;
-  /* margin-right: px; */
   margin-left: 15px;
 }
 
 .footer_menu li a {
-  /* color: white; */
   color: black;
 }
 .footer_menu li a:hover {color: black;
@@ -845,7 +800,6 @@ margin-left: 10px;
 .footer_box .footer01_box .footer_box_img {
   width: 50px;
   height: 50px;
-  /* background-color: yellow; */
   float: right;
   margin-right: 15px;
   margin-top: -30px;
@@ -869,7 +823,7 @@ margin-left: 10px;
 
 
 
-/**윙 배너**/
+
 
 .wing_box {
   position: fixed;
@@ -892,7 +846,7 @@ margin-left: 10px;
   transform: translateY(-50%) translateX(0);
 }
 
-/* 배너 디자인 유지 */
+
 .wing_banner {
   width: 50px;
   height: 50px;
@@ -915,10 +869,6 @@ margin-left: 10px;
   box-shadow: 0px 6px 18px rgba(0,0,0,0.25);
 }
 
-/***********************/
-
-
-
 
     .big_box {
             width: 306px;
@@ -934,18 +884,14 @@ margin-left: 10px;
             border-radius: 50%;
             margin-left: 10px;
             margin-top: 5px;
-            /* cursor: pointer; */
+           
         }
 
-        /* .color_box:hover {
-          width: 20px;
-          height: 20px;
-        } */
 
         .big_box div:nth-child(1) {background-color: red;}
         .big_box div:nth-child(2) {background-color: black;}
         .big_box div:nth-child(3) {background-color: blue;}
         .big_box div:nth-child(4) {background-color: yellow;}
         .big_box div:nth-child(5) {background-color: white;}
-/** 색상을 못 바꿈 **/
+
 

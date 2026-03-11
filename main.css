@@ -36,9 +36,6 @@ body {
     
 }
 
-/* .header .color_top {
- 
-} */
 
 
 
@@ -86,74 +83,6 @@ body {
 
 
 
-/************************************************** 메뉴 ***/
-/* 
-.gnb_outer {
-  width: 100%;
-  height: 50px;
-  background-color: black;
-  
-}
-
-.gnb {
-  width: 1125px;
-  margin: 0 auto;
-  background-color: black;
-}
-
-.gnb::after {
-  content: '';
-  display: block;
-  clear: both;
-}
-
-.gnb ul {
-}
-.gnb ul li {
-  width: 120px; 
-  height: 50px;
-  text-align: center;
-  line-height: 50px;
-  color: white;
-  cursor: pointer;
-  float: left;
-  position: relative;
-}
-
-
-
-.gnb li li {
-  width: 120px;
-  height: 50px; 
-  display: none;
-  color: black;
-  background-color:white;
-  line-height: 50px;
-  float: none;
-  
-}
-
-.gnb li ul {
-  position: absolute;
-  top: 50px;
-  left: 0;
-  margin: 0;
-  padding: 0;
-  display: none;
-  z-index: 1000;
-}
-
-.gnb li:hover > ul {
-  display: block;
-}
-
-
- .gnb li li:hover {font-weight: none;background-color: #eee;} */
-/* .gnb>ul:hover li li {display: block;}  */
-
-
-
-
 .gnb_outer {
   width: 100%;
 
@@ -188,13 +117,6 @@ body {
 
 .gnb li ul {
   display: none;
-  /* position: absolute;
-  top: 50px; 
-  left: 0;
-  margin: 0;
-  padding: 0;
-  width: 120px;
-  z-index: 1000; */
   background-color: hsl(0, 7%, 97%);
 }
 
@@ -227,22 +149,15 @@ body {
 
 
 
-
-
-
-
-/****/
  .main_box {
   width: 1269px;
-  /* height: 500px; */
-  /* border: 1px solid black; */
   margin: 0 auto;
   margin-top: 50px;
   margin-bottom: 50px;
   display: flex;
   justify-content: space-between;
   gap: 15px;
-  /* border: 1px solid black; */
+ 
 
 } 
   .main_box .main_R {
@@ -259,17 +174,9 @@ body {
   width: 100%;
   height: 400px;
   border-radius: 10%;
-  /* margin-top: 50px; */
-  /* margin-top: 0; */
+ 
 }
 
-/* .main_R li {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-} */
-
-/* 원하는 만큼 조절 */
 .bx-wrapper {
   margin-top: 80px;   
 }
@@ -284,22 +191,6 @@ body {
 
 
 
-/*************************/
-
-
-
-/* .frame01 {
-  margin-top: 60px;
-  width: 948px ; 
-  height: 500px;
-  background-image: url(./home/M1.JPG);
-  background-size: cover;
-  animation: ani_visual 8s infinite;
-  margin-bottom: 30px;
-
-} */
-
-
 
 .frame {
   margin-top: 60px;
@@ -311,18 +202,6 @@ body {
   margin-bottom: 30px;
 
 }
-
-
-
-/* 
-@keyframes ani_visual {
-  0%  {background-image: url(./home/M3.JPG); }
-  20%   {background-image: url(./home/M1.JPG); }
-  40%  {background-image: url(./home/M5.jpg); }
-  80%  {background-image: url(./home/M2.jpg); }
-  100% {background-image: url(./home/M1.JPG); }
-  60%  {background-image: url(./home/M4.jpg); }
-} */
 
 @keyframes ani_visual {
   0%  {background-image: url(./home/m3.jpg); }
@@ -339,7 +218,6 @@ body {
   width: 1269px;
   height: 50px;
   margin: 0 auto;
-  /* background-color:black; */
   color:black;
   font-weight: bold;
   margin-bottom: 15px;
@@ -379,9 +257,7 @@ body {
 }
 
 
-/* .best_box .top {
-  float: left;
-} */
+
 
 .best_box_box:last-child{margin: 0;}
 
@@ -401,7 +277,7 @@ body {
   width: 306px;
   margin-top: 10px;
   text-align: center;
-  /* border: 1px solid black; */
+
 }
 
 .best_text .N{
@@ -460,45 +336,29 @@ body {
 }
 
 
-/********************/
-
-
-
 
 
 .event_box{
   width: 1269px;
   height: 400px;
   margin: 0 auto;
-  /* border: 1px solid black; */
   display: flex;
   justify-content: space-between; 
   margin-bottom: 50px;
  
-  
-  /* border: 1px solid black; */
+
 }
 
 
 .event_box_box {
   position: relative;
   width: 627px;
-   /* height: 400px;  */
-   /* display: flex; 
-  justify-content: space-between; 
-   gap: 10px; */
-   
-   
-   
-   /* border: 1px solid black; */
 
-  
 }
 .event_box_img_box {
   display: flex;
   justify-content: space-between;
   gap: 10px;
-  /* height:350px; */
   
 }
 .event_img {
@@ -509,7 +369,7 @@ body {
 .event_img img{
   width: 100%;
   height:350px;
- object-fit: cover;   /* 이미지 넘침 방지 + 둥근 모서리 정확하게 적용 */
+ object-fit: cover;  
   display: block;
 }
 
@@ -521,8 +381,6 @@ body {
   height: 30px;
   position: absolute;
   left: 250px;
-  /* color: black;
-  background-color: black; */
   bottom: 5px;
 }
 
@@ -539,7 +397,6 @@ body {
 
 .story_box {
   width: 1269px;
-  /* border: 1px solid black; */
   margin-bottom: 15px;
   display: flex;
   justify-content: center;
@@ -548,8 +405,6 @@ body {
 
 .story_box_box {
   width: 306px;
-  /* border: 1px solid black; */
-  /* margin-right: 15px; */
 }
 
 
@@ -572,7 +427,6 @@ body {
 .story_box .story_text {
   width: 306px; 
   height: 200px;
-  /* border: 1px solid black; */
   font-size: 20px;
   text-align:center;
    margin: 15px;
@@ -585,7 +439,6 @@ body {
 .story_btn {
   width: 100px;
   height: 30px;
-  /* background-color: black;  */
   margin-top: 20px;
   
 
@@ -641,12 +494,11 @@ gap: 15px;}
 .supportz_A {
   width: 413px;
   height: 300px;
-  /* border: 1px solid black; */
+
 }
 .supportz_img01 {
   width: 413px;
   height: 300px;
-  /* border: 1px solid black; */
   margin-top: 30px;
 
 }
@@ -669,15 +521,15 @@ justify-content: space-between;
 .supportz_B {
   width: 413px;
   height: 300px;
-  /* border: 1px solid black; */
+
 }
 
 .supportz_img {
   width: 413px;
   height: 300px;
 
-   border-radius: 20px;   /* 원하는 라운드값 */
-  overflow: hidden;      /* 필수 */
+   border-radius: 20px;  
+  overflow: hidden;      
 }
   
 
@@ -691,8 +543,6 @@ justify-content: space-between;
   margin: 10px;
   font-size: 20px;
   font-weight: bold;
-  /* font-weight: bold; */
-  /* border: 1px solid black; */
 }
 
 .supportz_A .supportz_img01:hover,
@@ -719,7 +569,6 @@ margin: 0 auto;
 
 .supportz_box label:hover{
   background-color: #ccc;
-  /* border: 1px solid black;box-sizing: border-box; */
   color: black;
 }
 
@@ -735,18 +584,15 @@ margin: 0 auto;
   width: 1269px;
   height: 300px;
   margin: 0 auto;
-  /* border: 1px solid black; */
    margin-bottom: 50px;
    
   }
   .review_bottom_img {
     width: 100%;
-   border-radius: 20px;   /* 원하는 둥근값 */
-  overflow: hidden;      /* 필수! */
- 
+   border-radius: 20px;   
+  overflow: hidden;     
 }
 
-/*********************/
 
 
 .swiper {
@@ -756,7 +602,7 @@ margin: 0 auto;
 
 .swiper-slide {
   text-align: center;
-  /* background: #eee; */
+ 
 }
 
     .mySwiper {
@@ -765,9 +611,7 @@ margin: 0 auto;
       padding-bottom: 40px;
 
     }
-    /* .swiper-pagination {
-  bottom: 10px !important;
-} */
+
 
     .review_boxbox {
       border: 1px solid #ddd;
@@ -824,87 +668,13 @@ margin: 0 auto;
       font-size: 14px;
       color: #555;
     }
-/*********************/
-
-/* 
-.review_box {
-  width: 1269px;
-  height:460px ;
-  margin: 0 auto;
-  margin-bottom: 50px;
-}
-
-
-.review_boxbox {
-  width: 300px;
-
-  height: auto;
-  border: 1px solid black;
-  float: left;
-  margin-right: 15px;
-  
-} 
-
-
- .review_boxbox:last-child {margin: 0;} 
-
-.review_boxbox .review_img01 img{
-  width: 100%;
-}
-
-
-.review_boxbox .RT {
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
  
-  
-}
-
-
-
-
-
-
-.review_boxbox .RP {
- 
-  margin-top: 10px;
-
-  line-height: 50px;
-  font-size: 15px;
-  font-weight: bold;
-
- 
-}
-
-
-.review_boxbox .RPP {
-  width: 50px;
-  height: 50px;
-  float: left;
-  margin: 10px 10px;
-  
-}
-
-
-.review_boxbox .RPP img {
-  width: 100%;
-  border: 1px solid black;
-  margin-top: -11px;
-
-} */
-
-
-
-/********/
-
 
 
 
 .help_box {
   width: 1269px;
   height: 200px;
-  /* border: 1px solid black; */
   margin: 0 auto;
   
 }
@@ -912,10 +682,8 @@ margin: 0 auto;
 
 
 .help_box .help {
-  /* width: 413px;  */
   width: 400px; 
   height: 200px;
-  /* border: 1px solid black; */
   float: left;
   margin-right: 15px;
    margin-bottom: 100px;
@@ -924,12 +692,11 @@ margin: 0 auto;
 .help_box .help_img {
   width: 150px;
   height: 150px;
-  /* border: 1px solid black; */
+
   margin-top: 30px;
   margin-left: 20px;
   float: left;
-  /* overflow: hidden;
-  border-radius: 10px; */
+
   
    
 }
@@ -937,8 +704,7 @@ margin: 0 auto;
 .help_box .help_img img {
   width: 100%;
   height: 100%;
-   /* display: block;
-     object-fit: cover */
+
 
 }
 
@@ -961,10 +727,7 @@ margin: 0 auto;
 .footer_box {
   width: 1269px;
   height: 300px;
-  /* border: 1px solid black; */
   margin: 0 auto;
-  /* background-color: black; */
-  /* color: white; */
   margin-top: 50px;
   
 }
@@ -977,8 +740,6 @@ margin: 0 auto;
 .footer_menu li {
   display: inline-block;
   font-size: 15px;
-  /* color: white; */
-  /* margin-right: px; */
   margin-left: 15px;
   
 }
@@ -990,7 +751,6 @@ margin: 0 auto;
 
 
 .footer_menu li a {
-  /* color: white; */
   color: black;
 }
 .footer_menu li a:hover {
@@ -1119,7 +879,6 @@ margin-left: 10px;
   background-color: black;
   color: white;
   padding: 10px;
-  /* position: absolute; */
   position: fixed;
   top: 300px ; left: 30px;
    border-radius: 10px;

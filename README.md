@@ -28,14 +28,21 @@
 - 개발 인원 : 1명
 
 
-<br>
+### ✅시안 및 구성 
 
+<img src = "https://github.com/user-attachments/assets/d4a8b5ee-ae30-4897-b239-3bbbc8eed75b" width = "300px"/> 
+<img src = "https://github.com/user-attachments/assets/d074f276-a2b7-4816-a1d6-7f5e33c91cf1" width = "300px"/>
+<img src = "https://github.com/user-attachments/assets/a5533b27-14b3-468e-8b28-f1d2d429158f" width = "300px"/>
+
+
+<br>
 
 ## 📌사용 스킬
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![jQuery](https://img.shields.io/badge/jquery-%230769AD.svg?style=flat-square&logo=jquery&logoColor=white)
 
 
 <br>
@@ -43,10 +50,11 @@
 
 ## 📌 프로젝트 주요 기능
 
-- Fullpage 스크롤 기반 페이지 구성
-- GSAP ScrollTrigger 애니메이션
-- 프로젝트 카드 Hover 인터랙션
-- 반응형 레이아웃
+- 메인 배너 슬라이더
+- 상세 설명 토글
+- 이벤트 팝업
+- 아코디언 메뉴
+- 윙 배너 (버튼)
 
 <br>
 

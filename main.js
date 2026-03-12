@@ -282,3 +282,6 @@ $('.review_img_box').bxSlider({
         },
       },
     });
+
+
+

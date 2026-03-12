@@ -31,7 +31,7 @@
 ### ✅시안 및 구성 
 
 <img src = "https://github.com/user-attachments/assets/d4a8b5ee-ae30-4897-b239-3bbbc8eed75b" width = "300px"/> 
-<img src = "https://github.com/user-attachments/assets/d074f276-a2b7-4816-a1d6-7f5e33c91cf1" width = "300px"/>
+<img src = "https://github.com/user-attachments/assets/d074f276-a2b7-4816-a1d6-7f5e33c91cf1" width = "200px"/>
 <img src = "https://github.com/user-attachments/assets/a5533b27-14b3-468e-8b28-f1d2d429158f" width = "300px"/>
 
 

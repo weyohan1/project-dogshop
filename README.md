@@ -50,11 +50,10 @@
 
 ## 📌 프로젝트 주요 기능
 
-- 메인 배너 슬라이더
+- 수량 버튼
 - 상세 설명 토글
 - 이벤트 팝업
-- 아코디언 메뉴
-- 윙 배너 (버튼)
+
 
 <br>
 
@@ -81,29 +80,26 @@ project
 ## 📌 코드 리뷰
 
 
-## ✅코드 
-
-1111111111111111
-22222222222222
-3333333333333
-
-11111111111
-222222222222
-3333
+## ✅ 수량 버튼
 
 
+<img src="https://github.com/user-attachments/assets/20b55e29-dc44-4b2e-a9b0-933eb4d0af6e" width = "300px"/>
+<img src="https://github.com/user-attachments/assets/ff8a8577-783c-43f6-b92e-7b3ce6148f8d" width = "300px"/> <br>
+
+- 최소 수량이 0 미만으로 내려가는 것을 방지 하였고, 최대 구매 수량 제한을 10개로 제한 하여 초과시 alert를 통해 사용자에게 안내 하도록 하였습니다.
+
+<br>
 
 
-##  ✅수정
+##  ✅ 상세 설명 토글
 
+<img src="https://github.com/user-attachments/assets/504ef85b-3bc1-4474-a686-1ab8a7fd9a56" width = "250px"/>
+<img src="https://github.com/user-attachments/assets/64a6d145-7684-46e3-b06e-cf6646891e77" width = "250px"/>
+<img src="https://github.com/user-attachments/assets/836d1e40-0a12-49a6-83b4-73612844df2b" width = "300px"/>
 
-1111111111111111
-22222222222222
-3333333333333
+- isOpent 변수를 사용하여 display = block시 텍스트를 보여주며 버튼 글자는 "닫기", display = none 일때는 텍스를 숨기고, 버튼 글자는 "보기" 로 변경 되는 직관적인 인테페이스를 제공 하였습니다.
 
-11111111111
-222222222222
-3333
+- window.lastScrollY를 사용하여 열기 직전의 스크롤 위치를 저장하고, 상세설명을 닫는 순간 , 저장된 좌표로 이동하여 위치 이탈을 막았습니다. 
 
 
 ##  ✅수정

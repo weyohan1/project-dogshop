@@ -303,7 +303,7 @@ body {
   
 }
 
-.plus_box {
+.number_box {
   width: 100px;
   height: 30px;
   font-size: 20px;
@@ -317,7 +317,7 @@ body {
   
 }
 
-.plus_btn {
+.plus_btn, .minus_btn {
   font-size: 30px;
   width: 30px;
   height: 30px;
@@ -702,7 +702,7 @@ body {
   margin: 0 auto;
   border: 1px solid rgb(88, 86, 86);
 }
-.btn {
+.info_btn {
   width: 200px;
   height: 50px;
   margin: 0 auto;

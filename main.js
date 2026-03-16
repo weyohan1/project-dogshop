@@ -3,78 +3,58 @@
   $(function(){
   let cnt = 1;
 
-  $('.plus_btn').click(function(){
-
-    cnt++;
-
-    if(cnt > 10) {
-      cnt = 10;
-      alert('최대10개까지 구매 가능!');
-    }
-
-    $('.count_box').text(cnt);
-
+  $('.plus_btn').click(()=>{
+  cnt++;
+  if(cnt > 10) {
+  cnt = 10;
+  alert('최대10개까지 구매 가능!');
+  }
+  $('.count_box').text(cnt);
   });
-});
+  
+  $('.minus_btn').click(()=>{
+  cnt--;
+  if(cnt < 1) {
+  cnt = 0;
+  }
+  $('.count_box').text(cnt);  
+  });
+  });
+
 
 
 
 //상세정보 //
 
 
-  document.addEventListener('DOMContentLoaded',() => {
-const btn = document.querySelector('.btn');
-const inforText = document.querySelector('.info_text');
-let isOpen =false;
-
- btn.addEventListener('click',() => {
-
-  e.preventDefault();
-
-  if(isOpen === false) {
-    inforText.style.display = 'block';
-    btn.textContent ='상세설명닫기';
-    isOpen = true;
-  } else {
-    inforText.style.display = 'none';
-    btn.textContent ='상세설명보기'
-    isOpen = false;
-  }
-  
-});
-});
-
-
-
-//상세페이지 눌렀을때 스크롤 이동x
-
-document.addEventListener('DOMContentLoaded', () => {
-  const btn = document.querySelector('.btn');
-  const inforText = document.querySelector('.info_text');
+document.addEventListener('DOMContentLoaded',()=> {
+  const InfoBtn = document.querySelector('.info_btn');
+  const InfoText = document.querySelector('.info_text');
   let isOpen = false;
   let lastScrollY = 0;
 
-  btn.addEventListener('click', (e) => {
-    e.preventDefault();
+  InfoBtn.addEventListener('click',()=> {
 
-    if (isOpen === false) {
-      lastScrollY = window.scrollY;   
-      inforText.style.display = 'block';
-      btn.textContent = '상세설명닫기';
+    
+    if(!isOpen) {
+      lastScrollY = window.scrollY,
+      InfoText.style.display = 'block';
+      InfoBtn.textContent = "상세설명 닫기";
       isOpen = true;
-    } else {
-      inforText.style.display = 'none';
-      btn.textContent = '상세설명보기';
+      
+    }else {
+      
+      InfoText.style.display = 'none';
+      InfoBtn.textContent = "상세설명 보기";
       isOpen = false;
-
+      
       window.scrollTo({
-        top: lastScrollY,     
-        behavior: "instant"
+        top:lastScrollY,
+        behavior:"instant"
       });
-    }
+    };
+    });
   });
-});
-
 
 
 
@@ -174,56 +154,42 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
     //탑 버튼
-
 document.addEventListener("DOMContentLoaded", () => {
+const wing = document.querySelector(".wing_box");
+let lastScroll = 0;
 
+window.addEventListener("scroll", () => {
+let currentScroll = window.scrollY;
 
-  const wing = document.querySelector(".wing_box");
-  let lastScroll = 0;
+if (currentScroll <= 0) {
+wing.classList.remove("show");
+return;
+}
 
-  window.addEventListener("scroll", () => {
-    let currentScroll = window.scrollY;
+if (currentScroll > lastScroll) {
+wing.classList.add("show");
+} else {
+wing.classList.remove("show");
+}
+lastScroll = currentScroll;
+});
 
-    if (currentScroll <= 0) {
-      wing.classList.remove("show");
-      return;
-    }
+const TopLink = document.querySelector('#top');
+TopLink.addEventListener('click',()=> {
 
-    if (currentScroll > lastScroll) {
-      wing.classList.add("show");
-    } else {
-      wing.classList.remove("show");
-    }
+window.scrollTo({
+top:0,
+behavior:"instant"
+});
+});
 
-    lastScroll = currentScroll;
-  });
-
-
-  const topLinks = document.querySelectorAll('a[href="#top"]');
-  topLinks.forEach(link => {
-    link.addEventListener("click", function(e) {
-      e.preventDefault();
-      window.scrollTo({
-        top: 0,
-        behavior: "smooth"
-      });
-    });
-  });
-
-
-
-
-  const bottomLinks = document.querySelectorAll('a[href="#bottom"]');
-  bottomLinks.forEach(link => {
-    link.addEventListener("click", function(e) {
-      e.preventDefault();
-      window.scrollTo({
-        top: document.body.scrollHeight,
-        behavior: "smooth"
-      });
-    });
-  });
-
+const BottomLink = document.querySelector('#bottom');
+BottomLink.addEventListener('click',()=> {
+window.scrollTo({
+top:document.body.scrollHeight,
+behavior:"instant"
+});
+});
 });
 
 
